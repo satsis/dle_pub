@@ -1,3 +1,4 @@
+<?php
 function create_cache_catalogue($folder, $prefix, $cache_text, $cache_id = false, $member_prefix = false) {
 	global $config, $is_logged, $member_id, $modulcat, $mcache;
 
@@ -83,3 +84,4 @@ function dle_cache_catalogue($folder, $prefix, $cache_id = false, $member_prefix
 
 	return @file_get_contents ( $filename );
 }
+?>
